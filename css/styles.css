@@ -1,0 +1,150 @@
+* {
+	margin: 0;
+	padding: 0;
+	font-family: open-sans, sans-serif;
+}
+.page-1 {
+	height: 100vh;
+	background-image: url(../images/background/agency-slider-04.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+.nav-div {
+	width: 90%;
+}
+.nav-link {
+	font-size: 15px;
+}
+.inside1 {
+	min-height: 100vh;
+}
+.breakfast {
+	background-color: rgb(247, 113, 64);
+	width: 75%;
+}
+.location {
+	width: 50%;
+}
+.page-2 {
+	display: flex;
+	gap: 30px;
+}
+
+.explore {
+	width: 200px;
+	height: 40px;
+}
+.icons {
+	margin-top: 30px;
+}
+.icondiv {
+	margin-top: 15%;
+	margin-bottom: 10%;
+}
+.imagediv-page3 {
+	height: 100%;
+	/* background-image: url(../images/background/restaurant-about-bg.jpg);
+	background-repeat: no-repeat;
+	background-size: cover; */
+	padding: 0;
+}
+.imgonion {
+	width: 100%;
+}
+
+.discover {
+	background-color: rgb(255, 244, 246);
+	padding: 0;
+}
+.row-4 {
+	min-height: 70vh;
+	margin-bottom: 30px;
+}
+.tasty {
+	font-size: 35px;
+	color: rgb(126, 85, 10);
+}
+.row-5 {
+	min-height: 100vh;
+	background-image: url(../images/background/restaurant-menu-bg.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.menu {
+	color: rgb(126, 85, 10);
+	font-size: 23px;
+	font-weight: bold;
+}
+.menuicon {
+	color: rgb(126, 85, 10);
+	font-weight: bold;
+}
+.para {
+	font-size: 14px;
+}
+.exchef {
+	color: rgb(126, 85, 10);
+}
+.chef {
+	background-color: rgb(255, 244, 246);
+	padding: 0;
+}
+.booking {
+	min-height: 60vh;
+	background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
+		url(../images/background/hero-bg9.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+.enjoy {
+	min-height: 60vh;
+	background-image: url(../images/background/fitness-about-bg.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+.enjoymeal {
+	background-color: rgb(248, 233, 235);
+	margin-left: 40px;
+}
+.enjoyhead {
+	color: rgb(126, 85, 10);
+	font-weight: lighter;
+}
+@media screen and (max-width: 576px) {
+	.del {
+		display: none;
+	}
+	.inside1 {
+		flex: none;
+	}
+	.breakfast {
+		width: 100%;
+		padding: 0;
+	}
+	.location {
+		width: 100%;
+		margin: 0;
+	}
+	.imgonion {
+		margin-top: 3px;
+	}
+	.price {
+		text-align: end;
+	}
+	.row-5 {
+		background-image: linear-gradient(
+				to bottom,
+				rgba(0, 0, 0, 0),
+				rgba(10, 10, 10, 0.1)
+			),
+			url(../images/background/restaurant-menu-bg.jpg);
+	}
+	.enjoy {
+		background-image: none;
+	}
+	.enjoymeal {
+		margin: 0;
+		padding: 0;
+	}
+}
