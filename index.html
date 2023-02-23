@@ -643,16 +643,20 @@
 					<form>
 						<input
 							type="text"
+							id="name"
 							placeholder="*Your name"
 							class="w-75 rounded-2 p-2 mb-2"
 						/>
+
 						<input
 							type="text"
+							id="email"
 							placeholder="*Your email "
 							class="w-75 rounded-2 p-2 mb-2"
 						/>
 						<textarea
 							rows="6"
+							id="msg"
 							placeholder="Message"
 							class="w-75 rounded-2 p-2 mb-2"
 						></textarea>
@@ -661,6 +665,7 @@
 					<button
 						type="button"
 						class="btn rounded-1 p-2 text-light bg-warning bg-opacity-75"
+						onclick="validate()"
 					>
 						BOOK TABLE
 					</button>
@@ -673,5 +678,6 @@
 		</div>
 		<!-- js cdn -->
 		<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+		<script src="js/script.js"></script>
 	</body>
 </html>
